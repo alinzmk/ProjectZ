@@ -18,17 +18,17 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path='/ProjectZ' element={<Homepage/>}/>
-        <Route path='/ProjectZ/story' element={<Story/>}/>
-        <Route path='/ProjectZ/whoarewe' element={<WhoAreWe/>}/>
-        <Route path='/ProjectZ/documentation' element={<Documentation/>}/>
-
-        <Route path='/ProjectZ/story/alessandro' element={<Alessandro/>}/>
-        <Route path='/ProjectZ/story/anastasios' element={<Anastasios/>}/>
-        <Route path='/ProjectZ/story/aliosman' element={<AliOsman/>}/>
-        <Route path='/ProjectZ/story/michael' element={<Michael/>}/>
-        <Route path='/ProjectZ/story/lara' element={<Lara/>}/>
-        <Route path='/ProjectZ/story/unknown' element={<Unknown/>}/>
+      <Route path='/' element={<Homepage/>}/>
+        <Route path='/story' element={<Story/>}/>
+        <Route path='/whoarewe' element={<WhoAreWe/>}/>
+        <Route path='/documentation' element={<Documentation/>}/>
+        
+        <Route path='/story/alessandro' element={<Alessandro/>}/>
+        <Route path='/story/anastasios' element={<Anastasios/>}/>
+        <Route path='/story/aliosman' element={<AliOsman/>}/>
+        <Route path='/story/michael' element={<Michael/>}/>
+        <Route path='/story/lara' element={<Lara/>}/>
+        <Route path='/story/unknown' element={<Unknown/>}/>
 
       <Route path='/n7YJ9KdPmX' element={<Hint1/>}/>
       <Route path='/G4fU5vN8cS' element={<Hint2/>}/>
