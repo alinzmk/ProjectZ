@@ -17,7 +17,6 @@ a, a:hover, a::after{
   font-size: 2rem;
 }
 .storyParag {
-  font-size: 0.7rem;
   text-indent: 30px;
 }
 
@@ -27,7 +26,7 @@ a, a:hover, a::after{
 
 @media only screen and (min-width: 700px) {
   #home-div {
-      height: 95vh;
+      height: 80vh !important;
     }
   
     #second-div {
@@ -66,7 +65,7 @@ a, a:hover, a::after{
 #home-div {
   text-align: center;
   background-image: url("./images/bg-dark.png");
-  height: 100vh;
+  height: 70vh;
 }
 
 #second-div {
@@ -75,7 +74,7 @@ a, a:hover, a::after{
 }
 
 #third-div {
-  height: 110vh;
+  height: 100vh;
   background: rgb(2, 0, 36);
   background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(20, 20, 26) 95%);
 }
@@ -141,10 +140,6 @@ a, a:hover, a::after{
   margin: auto;
 }
 
-.systemReq {
-  font-size: 0.7rem;
-}
-
 #stageInner {
   max-width: 40%;
   justify-content: center;
@@ -152,7 +147,7 @@ a, a:hover, a::after{
 }
 
 .whoarewe{
-  height: 90vh;
+  height: 135vh;
 }
 .documentation{
   height: 75vh;

@@ -67,8 +67,6 @@ function Story(){
     }, []);
     
     
-    
-    
     return (
         <>
         <Navbar/>
@@ -76,7 +74,7 @@ function Story(){
         <Modal open={openModal} onClose={()=>setModalOpen(false)}/>
         <div class="container m-auto mt-lg-5 my-5">
     <div class="row">
-        <h6>My name is Alessandro, Alessandro Soprano</h6>
+        <h3>My name is Alessandro, Alessandro Soprano</h3>
     </div>
     <div class="row">
         <p class="storyParag">
