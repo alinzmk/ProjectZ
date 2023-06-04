@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  color: whitesmoke;
+  letter-spacing: 0.09rem;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+  background-color: black;
+  margin-top: 100px;
+}
+a, a:hover, a::after{
+  text-decoration: none;
+  color: white;
+}
+.navbar-brand{
+  font-size: 2rem;
+}
+.storyParag {
+  font-size: 0.7rem;
+  text-indent: 30px;
+}
+
+.row {
+  width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+  #home-div {
+      height: 95vh;
+    }
+  
+    #second-div {
+      background: rgb(20, 20, 26);
+      height: 60vh !important;
+    }
+    #third-div {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(20, 20, 26) 95%);
+    }
+    #homeFirst {
+      width: 50% !important;
+      margin: auto;
+    }
+    #footer {
+      text-decoration: none;
+      font-size: 1.3rem !important;
+    }
+    .systemReq{
+      font-size: 1rem !important;
+    }
+    .storyParag {
+      font-size: 1rem;
+    }
+    .modal-content {
+      width: 50% !important;
+    }
+    #stageInner {
+      max-width: 100% !important;
+    }
+    .whoarewe {
+      height: 75vh !important;
+    }
+}
+
+#home-div {
+  text-align: center;
+  background-image: url("./images/bg-dark.png");
+  height: 100vh;
+}
+
+#second-div {
+  height: 120vh;
+  background: rgb(20, 20, 26);
+}
+
+#third-div {
+  height: 110vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(20, 20, 26) 95%);
+}
+
+#story{
+  background-image: url("./images/bg-dark.png");
+}
+
+
+.main-div {
+  margin: 0;
+  width: 100%;
+  height: 70vh;
+}
+
+.header {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  margin: auto !important;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.char-img {
+  max-width: 15rem;
+  margin: auto;
+  border-radius: 20px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.char-img:hover {
+  transform: scale(1.2);
+}
+
+.active{
+  color: white;
+}
+
+#downloadBtn{
+  font-size: 1.8rem;
+}
+#footer{
+  text-indent: 0% !important;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+#homeFirst{
+  width: 90%;
+  margin: auto;
+}
+
+.systemReq {
+  font-size: 0.7rem;
+}
+
+#stageInner {
+  max-width: 40%;
+  justify-content: center;
+  margin: auto;
+}
+
+.whoarewe{
+  height: 90vh;
+}
+.documentation{
+  height: 75vh;
+}
+
+.names, .names:hover{
+  font-size: 1.2rem;
+  color: rgb(72, 220, 205);
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+.overlay {
+  top: 0px;
+  background-color: rgba(0,0, 0, 0.75);
+  position: fixed;
+  width: 100% !important;
+  height: 100% !important;
+
+}
+.modalContainer {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 18px 0px rgba(0,0, 0, 0.75);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.closeBtn{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  color: white;
+}
+input{
+  color: black !important;
+}
