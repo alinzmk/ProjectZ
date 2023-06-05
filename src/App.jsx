@@ -19,16 +19,16 @@ function App() {
     <>
     <Routes>
       <Route path='/' element={<Homepage/>}/>
-        <Route path='/story' element={<Story/>}/>
-        <Route path='/whoarewe' element={<WhoAreWe/>}/>
-        <Route path='/documentation' element={<Documentation/>}/>
+        <Route path='/Story' element={<Story/>}/>
+        <Route path='/WhoAreWe' element={<WhoAreWe/>}/>
+        <Route path='/Documentation' element={<Documentation/>}/>
         
-        <Route path='/story/alessandro' element={<Alessandro/>}/>
-        <Route path='/story/anastasios' element={<Anastasios/>}/>
-        <Route path='/story/aliosman' element={<AliOsman/>}/>
-        <Route path='/story/michael' element={<Michael/>}/>
-        <Route path='/story/lara' element={<Lara/>}/>
-        <Route path='/story/unknown' element={<Unknown/>}/>
+        <Route path='/Story/Alessandro' element={<Alessandro/>}/>
+        <Route path='/Story/Anastasios' element={<Anastasios/>}/>
+        <Route path='/Story/Aliosman' element={<AliOsman/>}/>
+        <Route path='/Story/Michael' element={<Michael/>}/>
+        <Route path='/Story/Lara' element={<Lara/>}/>
+        <Route path='/Story/Unknown' element={<Unknown/>}/>
 
       <Route path='/n7YJ9KdPmX' element={<Hint1/>}/>
       <Route path='/G4fU5vN8cS' element={<Hint2/>}/>

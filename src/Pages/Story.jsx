@@ -11,7 +11,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Modal from "./Modal";
 
-var c1 = "/ProjectZ/Story/Alessandro"; var c2 = "/ProjectZ/story/unknown"; var c3 = "/story/unknown"; var c4 = "/story/unknown"; var c5 = "/story/unknown";
+var c1 = "/Story/Alessandro"; var c2 = "/Story/Unknown"; var c3 = "/Story/Unknown"; var c4 = "/Story/Unknown"; var c5 = "/Story/Unknown";
 var p1 = alessandroPhoto; var p2 = unknownPhoto; var p3 = unknownPhoto; var p4 = unknownPhoto; var p5 = unknownPhoto;
 const hintCode = ["n7YJ9KdPmX", "G4fU5vN8cS", "b2Df5VcPmX", "L6rM2nT8jW"];
 
@@ -72,7 +72,7 @@ function Story(){
         <Navbar/>
         <div id="story">
         <Modal open={openModal} onClose={()=>setModalOpen(false)}/>
-        <div class="container m-auto mt-lg-5 my-5">
+        <div class="container m-auto mt-lg-5 my-5 pt-lg-5">
     <div class="row">
         <h3>My name is Alessandro, Alessandro Soprano</h3>
     </div>
