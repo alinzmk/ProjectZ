@@ -9,7 +9,7 @@ import Alessandro from './Chars/Alessandro';
 import Anastasios from './Chars/Anastasios';import Michael from './Chars/Michael';
 import Lara from './Chars/Lara';import AliOsman from './Chars/AliOsman';
 
-
+import Hint1 from './Hints/Hint1';
 import Hint2 from './Hints/Hint2';import Hint3 from './Hints/Hint3';
 import Hint4 from './Hints/Hint4';import Hint5 from './Hints/Hint5';
 
