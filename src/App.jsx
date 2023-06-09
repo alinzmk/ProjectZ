@@ -9,8 +9,10 @@ import Alessandro from './Chars/Alessandro';
 import Anastasios from './Chars/Anastasios';import Michael from './Chars/Michael';
 import Lara from './Chars/Lara';import AliOsman from './Chars/AliOsman';
 
-import Hint1 from './Hints/Hint1';import Hint2 from './Hints/Hint2';import Hint3 from './Hints/Hint3';
+
+import Hint2 from './Hints/Hint2';import Hint3 from './Hints/Hint3';
 import Hint4 from './Hints/Hint4';import Hint5 from './Hints/Hint5';
+
 
 
 function App() {
@@ -24,10 +26,10 @@ function App() {
         <Route path='/Documentation' element={<Documentation/>}/>
         
         <Route path='/Story/Alessandro' element={<Alessandro/>}/>
-        <Route path='/Story/Anastasios' element={<Anastasios/>}/>
-        <Route path='/Story/Aliosman' element={<AliOsman/>}/>
-        <Route path='/Story/Michael' element={<Michael/>}/>
-        <Route path='/Story/Lara' element={<Lara/>}/>
+        <Route path='/Story/Anastasios-b7HkP' element={<Anastasios/>}/>
+        <Route path='/Story/AliOsman-2nL1f' element={<AliOsman/>}/>
+        <Route path='/Story/Michael-M5sCp' element={<Michael/>}/>
+        <Route path='/Story/Lara-G4tE9' element={<Lara/>}/>
         <Route path='/Story/Unknown' element={<Unknown/>}/>
 
       <Route path='/n7YJ9KdPmX' element={<Hint1/>}/>

@@ -4,6 +4,10 @@ import Navbar from "../Navbar";
 import pp from "../images/michael.png"
 
 function Michael(){
+
+    const localStorage = window.localStorage;
+    localStorage.setItem("char1", "michael");
+    
     return (
         <>
         <Navbar/>
@@ -12,9 +16,9 @@ function Michael(){
             <div class="col-lg-3">                
                 <img src={pp} class="char-img"/>
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-9 mt-5 mt-lg-0">
                 <h2>Michael Soprano </h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                <p class="storyParag">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard
                 dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
                 type specimen

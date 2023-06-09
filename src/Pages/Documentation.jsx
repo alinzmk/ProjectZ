@@ -36,7 +36,7 @@ function Documentation(){
                 <div class="col-10 m-3">
                 </div>
                 <div class="col-10 m-3">
-                    <p>You can contact us for more details<button class="btn btn-dark m-3"><Link className="nav-link" to="/ProjectZ/whoarewe">Who Are We</Link></button></p>
+                    <p>You can contact us for more details<button class="btn btn-dark m-3"><Link className="nav-link" to="/WhoAreWe">Who Are We</Link></button></p>
                 </div>
             </div>
             

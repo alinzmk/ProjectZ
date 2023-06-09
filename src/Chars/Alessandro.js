@@ -14,7 +14,7 @@ function Alessandro(){
             </div>
             <div class="col-lg-9">
                 <h2>Alessandro Soprano</h2>
-                <p>A man with Italian heritage who grew up in Turkey, and after his father's murder
+                <p class="storyParag">A man with Italian heritage who grew up in Turkey, and after his father's murder
                 became a private investigator driven by a desire for justice and a need to help others find closure.</p>
             </div>
         </div>

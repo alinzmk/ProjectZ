@@ -14,24 +14,25 @@ import Modal from "./Modal";
 var c1 = "/Story/Alessandro"; var c2 = "/Story/Unknown"; var c3 = "/Story/Unknown"; var c4 = "/Story/Unknown"; var c5 = "/Story/Unknown";
 var p1 = alessandroPhoto; var p2 = unknownPhoto; var p3 = unknownPhoto; var p4 = unknownPhoto; var p5 = unknownPhoto;
 const hintCode = ["n7YJ9KdPmX", "G4fU5vN8cS", "b2Df5VcPmX", "L6rM2nT8jW"];
+const charCode = ["michael", "anastasios", "lara", "aliosman"];
 
 
 function ImageShow(){
     var paragArray = [];
     for(let i=0;i<5;i++){
-        var x = localStorage.getItem("hint"+(i+1));
-        if(hintCode[i] === x){
+        var x = localStorage.getItem("char"+(i+1));
+        if(charCode[i] === x){
             if(i==0){
-                p2 = michaelPhoto; c2 = "/Story/Michael";  paragArray.push(i)
+                p2 = michaelPhoto; c2 = "/Story/Michael-M5sCp";  paragArray.push(i)
             }
             else if(i==1){ 
-                p3 = anastasiosPhoto; c3 = "/Story/Anastasios"; paragArray.push(i)
+                p3 = anastasiosPhoto; c3 = "/Story/Anastasios-b7HkP"; paragArray.push(i)
             }
             else if(i==2){
-                p4 = laraPhoto; c4 = "/Story/Lara"; paragArray.push(i)
+                p4 = laraPhoto; c4 = "/Story/Lara-G4tE9"; paragArray.push(i)
             }
             else if(i==3){
-                p5 = aliosmanPhoto; c5 = "/Story/AliOsman"; paragArray.push(i)
+                p5 = aliosmanPhoto; c5 = "/Story/AliOsman-2nL1f"; paragArray.push(i)
             }
         }    
     }
