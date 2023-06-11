@@ -1,9 +1,8 @@
-import { Routes, Route, Link, NavLink, useNavigate}
+import { Routes, Route}
     from 'react-router-dom';
 import './App.css';
 import Homepage from './Pages/Homepage'; import Story from "./Pages/Story"; 
 import WhoAreWe from './Pages/WhoAreWe'; import Documentation from './Pages/Documentation';
-import Modal from './Pages/Modal';
 import Unknown from './Chars/Unknown';
 import Alessandro from './Chars/Alessandro';
 import Anastasios from './Chars/Anastasios';import Michael from './Chars/Michael';
@@ -45,3 +44,4 @@ function App() {
 }
 
 export default App;
+

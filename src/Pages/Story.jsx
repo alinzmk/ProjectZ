@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import { NavLink , useHistory , Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import '../App.css';
 import alessandroPhoto from "../images/alessandro.png";
 import anastasiosPhoto from "../images/anastasios.png";
@@ -13,26 +13,25 @@ import Modal from "./Modal";
 
 var c1 = "/Story/Alessandro"; var c2 = "/Story/Unknown"; var c3 = "/Story/Unknown"; var c4 = "/Story/Unknown"; var c5 = "/Story/Unknown";
 var p1 = alessandroPhoto; var p2 = unknownPhoto; var p3 = unknownPhoto; var p4 = unknownPhoto; var p5 = unknownPhoto;
-const hintCode = ["n7YJ9KdPmX", "G4fU5vN8cS", "b2Df5VcPmX", "L6rM2nT8jW"];
-const charCode = ["michael", "anastasios", "lara", "aliosman"];
 
 
 function ImageShow(){
     var paragArray = [];
     for(let i=0;i<5;i++){
-        var x = localStorage.getItem("char"+(i+1));
+        const charCode = ["michael", "anastasios", "lara", "aliosman"];
+        const x = localStorage.getItem("char"+(i+1));
         if(charCode[i] === x){
             if(i==0){
-                p2 = michaelPhoto; c2 = "/Story/Michael-M5sCp";  paragArray.push(i)
+                p2 = michaelPhoto; c2 = "/Story/Michael-M5sCp";
             }
             else if(i==1){ 
-                p3 = anastasiosPhoto; c3 = "/Story/Anastasios-b7HkP"; paragArray.push(i)
+                p3 = anastasiosPhoto; c3 = "/Story/Anastasios-b7HkP";
             }
             else if(i==2){
-                p4 = laraPhoto; c4 = "/Story/Lara-G4tE9"; paragArray.push(i)
+                p4 = laraPhoto; c4 = "/Story/Lara-G4tE9";
             }
             else if(i==3){
-                p5 = aliosmanPhoto; c5 = "/Story/AliOsman-2nL1f"; paragArray.push(i)
+                p5 = aliosmanPhoto; c5 = "/Story/AliOsman-2nL1f";
             }
         }    
     }
@@ -48,7 +47,24 @@ function Story(){
     const myElementRef2 = useRef(null);
     const myElementRef3 = useRef(null);
     ImageShow();
+
     useEffect(() => {
+
+        const myElement1 = myElementRef1.current;
+        const myElement2 = myElementRef2.current;
+        const myElement3 = myElementRef3.current;
+        const elementArray = [myElement1, myElement2, myElement3]
+
+        for (let index = 0; index < 4; index++) {
+            const hint = localStorage.getItem("hint"+(index+1)); 
+            console.log(hint)
+            if(hint){
+                elementArray[index].classList.remove('d-none');
+            }
+        }
+    }, []);
+
+/*    useEffect(() => {
         
         var visibleParags = ImageShow();
         const myElement1 = myElementRef1.current;
@@ -65,7 +81,7 @@ function Story(){
                 }
             }
         }
-    }, []);
+    }, []); */
     
     
     return (
