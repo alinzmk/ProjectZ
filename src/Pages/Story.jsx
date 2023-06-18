@@ -2,36 +2,41 @@ import React, { useRef, useEffect, useState } from "react";
 import {Link} from "react-router-dom";
 import '../App.css';
 import alessandroPhoto from "../images/alessandro.png";
-import anastasiosPhoto from "../images/anastasios.png";
+import anastasiosPhoto from "../images/ibo2.png";
 import unknownPhoto from "../images/unknown.png";
-import laraPhoto from "../images/lara.png";
-import michaelPhoto from "../images/michael.png";
+import laraPhoto from "../images/levo.png";
+import michaelPhoto from "../images/ettore.png";
 import aliosmanPhoto from "../images/aliosman.png";
+import dhruvPhoto from "../images/dhruv.png";
+
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Modal from "./Modal";
 
-var c1 = "/Story/Alessandro"; var c2 = "/Story/Unknown"; var c3 = "/Story/Unknown"; var c4 = "/Story/Unknown"; var c5 = "/Story/Unknown";
-var p1 = alessandroPhoto; var p2 = unknownPhoto; var p3 = unknownPhoto; var p4 = unknownPhoto; var p5 = unknownPhoto;
+var c1 = "/Story/Alessandro"; var c2 = "/Story/Unknown"; var c3 = "/Story/Unknown"; var c4 = "/Story/Unknown"; var c5 = "/Story/Unknown"; var c6 = "/Story/Unknown";
+var p1 = alessandroPhoto; var p2 = unknownPhoto; var p3 = unknownPhoto; var p4 = unknownPhoto; var p5 = unknownPhoto; var p6 = unknownPhoto;
 
 
 function ImageShow(){
     var paragArray = [];
     for(let i=0;i<5;i++){
-        const charCode = ["michael", "anastasios", "lara", "aliosman"];
+        const charCode = ["ettore", "abraham", "levanja", "dhruv", "aliosman"];
         const x = localStorage.getItem("char"+(i+1));
         if(charCode[i] === x){
             if(i==0){
-                p2 = michaelPhoto; c2 = "/Story/Michael-M5sCp";
+                p2 = michaelPhoto; c2 = "/Story/Ettore-M5sCp";
             }
             else if(i==1){ 
-                p3 = anastasiosPhoto; c3 = "/Story/Anastasios-b7HkP";
+                p3 = anastasiosPhoto; c3 = "/Story/Abraham-b7HkP";
             }
             else if(i==2){
-                p4 = laraPhoto; c4 = "/Story/Lara-G4tE9";
+                p4 = laraPhoto; c4 = "/Story/Levanja-G4tE9";
+            }
+            else if(i==4){
+                p5 = aliosmanPhoto; c5 = "/Story/AliOsman-2nL1f";
             }
             else if(i==3){
-                p5 = aliosmanPhoto; c5 = "/Story/AliOsman-2nL1f";
+                p6 = dhruvPhoto; c6 = "/Story/Dhruv-3t5aq";
             }
         }    
     }
@@ -46,6 +51,8 @@ function Story(){
     const myElementRef1 = useRef(null);
     const myElementRef2 = useRef(null);
     const myElementRef3 = useRef(null);
+    const myElementRef4 = useRef(null);
+    const myElementRef5 = useRef(null);
     ImageShow();
 
     useEffect(() => {
@@ -53,9 +60,11 @@ function Story(){
         const myElement1 = myElementRef1.current;
         const myElement2 = myElementRef2.current;
         const myElement3 = myElementRef3.current;
-        const elementArray = [myElement1, myElement2, myElement3]
+        const myElement4 = myElementRef4.current;
+        const myElement5 = myElementRef5.current;
+        const elementArray = [myElement1, myElement2, myElement3, myElement4, myElement5]
 
-        for (let index = 0; index < 4; index++) {
+        for (let index = 0; index < 5; index++) {
             const hint = localStorage.getItem("hint"+(index+1)); 
             console.log(hint)
             if(hint){
@@ -134,6 +143,18 @@ function Story(){
             person who had killed my father. It brought me some closure, but the pain of losing my father will stay with me forever.
         </p>
     </div>
+    <div class="row">
+        <p className="d-none">Paragraph 5</p>
+        <p ref={myElementRef4} id="parag4" class="storyParag  d-none">
+        555555555   
+        </p>
+    </div>
+    <div class="row">
+        <p className="d-none">Paragraph 5</p>
+        <p ref={myElementRef5} id="parag4" class="storyParag  d-none">
+            LAST ONE
+        </p>
+    </div>
 </div>
     <div class="container pb-5">
         <div class="row m-auto p-lg-3 justify-content-center">
@@ -150,13 +171,16 @@ function Story(){
                 <Link className="nav-link" to={c4} ><img src={p4} class="char-img"/></Link>
             </div>
             <div class="col-6 col-lg-2 pb-5">
+                <Link className="nav-link" to={c6} ><img src={p6} class="char-img"/></Link>
+            </div>
+            <div class="col-6 col-lg-2 pb-5">
                 <Link className="nav-link" to={c5} ><img src={p5} class="char-img"/></Link>
             </div>
         </div>
         <div class="col-12 mb-5 m-auto justify-content-center">
-            <h6 class="text-center m-3">Did you play game more and cannot see other characters? Enter the hint codes and see full content.</h6>
+            <h6 class="text-center m-3">Did you play game more and cannot see other characters and story? Enter the hint or character codes and see full content.</h6>
             <div class="d-flex m-auto">
-                <button class="btn m-auto btn-secondary"onClick={()=>setModalOpen(true)} >ADD HINT CODE</button>
+                <button class="btn m-auto btn-secondary"onClick={()=>setModalOpen(true)} >ADD CODE</button>
             </div>
         </div>
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import '../App.css';
 import Navbar from "../Navbar";
+import pp from "../images/brazil.png"
 
 function Hint3(){
 
@@ -13,8 +14,9 @@ function Hint3(){
         <div class="container pt-5">
         <div class="row">
             <div class="col-lg-9">
-                <h2>Welcome This is Your Third Hint</h2>
-                <p>Hints are important to get the story correctly and finish the game easier</p>
+                <h3>Oathkeeper's Heathmap</h3>
+                <img src={pp} class="brazil-img"/>
+                <h3>Hmm.. There is something unexpected things in Brazil?</h3>
             </div>
         </div>
     </div>

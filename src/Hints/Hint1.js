@@ -13,17 +13,12 @@ function Hint1(){
         <div class="container pt-5">
         <div class="row">
             <div class="col-lg-9">
-                <h2>My Dearest Son,</h2>
-                <p>
-                    As I write these words, a mixture of pride and sorrow fills my heart.<br></br>
-                    Though I won't be by your side, I want you to know that you have my unwavering <br></br>
-                    love and support. Stay strong, my son, and face life's challenges with determination. <br></br>
-                    Take good care of your mother, for her love and strength are immeasurable. Carry my love <br></br>
-                    within you, and let it guide you through each step of your journey.<br></br>
-
-                    With all my love,<br></br>
-
-                    Your Father, Michael</p>
+                <h2>Welcome Player</h2>
+                <p>This is your first ever hint, <br></br>
+                You must know hints are imporant in this game to understand and get into the story<br></br>
+                and also get hints about that spesific level that makes you complete quite easier but...<br></br>
+                do not trust anything blindly (an advice from a friend)
+                    </p>
             </div>
         </div>
     </div>

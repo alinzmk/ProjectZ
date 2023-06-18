@@ -2,19 +2,15 @@ import React from "react";
 import '../App.css';
 import Navbar from "../Navbar";
 
-function Hint4(){
-
-    const localStorage = window.localStorage;
-    localStorage.setItem("hint4", "L6rM2nT8jW");
-
+function zHint6(){
     return (
         <>
         <Navbar/>
         <div class="container pt-5">
         <div class="row">
             <div class="col-lg-9">
-                <h2>Welcome to Brazil, not yet Californicated </h2>
-                <p>You cannot enter "THE CAVE" with car</p>
+                <h2>Why did you collect this item?</h2>
+                <p>This item contains nothing, do not believe everything you see. Try again.</p>
             </div>
         </div>
     </div>
@@ -23,4 +19,4 @@ function Hint4(){
 );
 };
 
-export default Hint4;
+export default zHint6;

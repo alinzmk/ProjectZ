@@ -1,13 +1,13 @@
 import React from "react";
 import '../App.css';
 import Navbar from "../Navbar";
-import pp from "../images/lara.png"
+import pp from "../images/dhruv.png"
 
-function Lara(){
+function Ettore(){
 
     const localStorage = window.localStorage;
-    localStorage.setItem("char3", "lara");
-
+    localStorage.setItem("char4", "dhruv");
+    
     return (
         <>
         <Navbar/>
@@ -17,9 +17,9 @@ function Lara(){
                 <img src={pp} class="char-img"/>
             </div>
             <div class="col-lg-9 mt-5 mt-lg-0">
-                <h2>Lara Kurtoğlu</h2>
-                <p class="storyParag">The daughter of Ali Osman, caught between loyalty to her father and a desire 
-                to do what is right, who ultimately helps Alessandro bring her father to justice and find closure.</p>
+                <h2>Dhruv</h2>
+                <p class="storyParag">
+Dhruv, an Indian homeless individual, remains a mysterious figure within his community. Even we do not know much thing about him. </p>
             </div>
         </div>
     </div>
@@ -28,4 +28,4 @@ function Lara(){
 );
 };
 
-export default Lara;
+export default Ettore;

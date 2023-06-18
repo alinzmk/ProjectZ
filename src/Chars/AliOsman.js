@@ -6,7 +6,7 @@ import pp from "../images/aliosman.png"
 function AliOsman(){
 
     const localStorage = window.localStorage;
-    localStorage.setItem("char4", "aliosman");
+    localStorage.setItem("char5", "aliosman");
 
     return (
         <>
@@ -18,27 +18,15 @@ function AliOsman(){
             </div>
             <div class="col-lg-9 mt-5 mt-lg-0">
                 <h2>Ali Osman Kurtoğlu </h2>
-                <p class="storyParag">Hizir Reis, born in 1953 in Istanbul, Turkey, is an esteemed scholar who has made substantial contributions to the field of history. With a particular focus on pyramids, he has earned recognition for his profound research and extensive knowledge in this area.
+                <p class="storyParag">Ali Osman, born in 1953, is a renowned historian specializing in pyramids. He earned recognition for his extensive research and contributions to the field. After studying history at Istanbul University, he pursued a doctorate at Georgetown University, deepening his knowledge of pyramid architecture and cultural significance.
 
-After completing his undergraduate studies in the History Department at Istanbul University, Hizir Reis embarked on an academic journey that led him to pursue a doctoral degree at the renowned Georgetown University in the United States. His doctoral studies provided him with a comprehensive understanding of pyramid architecture, construction techniques, and their cultural significance.
+Ali Osman's scholarly publications in esteemed journals shed light on the mysteries surrounding ancient pyramids. His meticulous investigations provide valuable insights into their historical context, engineering marvels, and symbolic implications.
 
-Hizir Reis's research on pyramids has been highly regarded within the academic community. His scholarly publications, which have appeared in esteemed scientific journals, shed light on the mysteries surrounding these ancient structures. His meticulous investigations and analytical prowess have yielded valuable insights into the historical context, engineering marvels, and symbolic implications of pyramids.
+Beyond academia, Ali Osman enjoys reading, nature walks, and photography, particularly capturing landscapes. He has a deep affection for his cat companion, Duman, who accompanies him on his journeys.
 
-Beyond his academic achievements, Hizir Reis has also thrived financially as a result of his research endeavors. The financial success he has achieved has not only afforded him a more prosperous lifestyle but has also facilitated his ongoing exploration and further studies.
+Despite a mild fear of flying and occasional claustrophobia, Ali Osman remains resilient, continuing to explore new territories. He takes pride in being a loving and guiding father, encouraging his daughter to pursue her aspirations.
 
-Hizir Reis possesses a multifaceted personality characterized by his conservative worldview, unwavering courage, and the ability to make critical decisions. His unwavering dedication to his research, coupled with his fearless approach to tackling challenges, has propelled him to the forefront of his field.
-
-Outside the realm of academia, Hizir Reis finds solace and inspiration in various hobbies. He is an avid reader, drawing knowledge from diverse literary sources, and enjoys taking long walks immersed in nature's beauty. His passion for capturing moments through photography, particularly in natural landscapes, further enriches his life.
-
-Furthermore, Hizir Reis is an ardent lover of feline companionship. His deep affection for cats is exemplified by his cherished pet named Duman, who accompanies him on his journeys. The presence of Duman brings him comfort and companionship during his travels, providing a respite from the rigors of academic pursuits.
-
-Despite his accomplishments, Hizir Reis remains grounded and exhibits a few phobias that he navigates with resilience. He experiences a mild fear of flying during long-haul flights, but this does not deter his passion for exploration. Additionally, he occasionally experiences slight claustrophobia when traversing dimly lit environments. Nevertheless, he manages these fears with composure and continues to venture into new territories.
-
-In his personal life, Hizir Reis cherishes his role as a father and takes pride in nurturing his daughter with love, guidance, and an emphasis on education. He encourages her to be bold, independent in thought, and to pursue her aspirations wholeheartedly.
-
-Hizir Reis's academic achievements and passion for historical research have culminated in the establishment of a research center in Brazil. Through this institution, he actively mentors aspiring scholars and fosters international collaborations, embodying his commitment to knowledge dissemination and academic growth.
-
-In conclusion, Hizir Reis stands as an esteemed academic figure, renowned for his contributions to the field of history, particularly in relation to pyramids. His diligent research, courageous decision-making, and unwavering dedication to education and exploration have solidified his position as a respected authority in his domain.</p>
+Ali Osman's achievements led to the establishment of a research center in Brazil, where he mentors scholars and fosters international collaborations, furthering knowledge dissemination.</p>
             </div>
         </div>
     </div>

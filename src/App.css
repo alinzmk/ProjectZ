@@ -189,3 +189,15 @@ a, a:hover, a::after{
 input{
   color: black !important;
 }
+
+.brazil-img{
+    max-width: 40rem;
+    margin: 20px;
+      border-radius: 20px;
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+}
