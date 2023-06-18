@@ -13,7 +13,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Modal from "./Modal";
 
-var c1 = "/Story/Alessandro"; var c2 = "/Story/Unknown"; var c3 = "/Story/Unknown"; var c4 = "/Story/Unknown"; var c5 = "/Story/Unknown"; var c6 = "/Story/Unknown";
+var c1 = "/Alessandro"; var c2 = "/Unknown"; var c3 = "/Unknown"; var c4 = "/Unknown"; var c5 = "/Unknown"; var c6 = "/Unknown";
 var p1 = alessandroPhoto; var p2 = unknownPhoto; var p3 = unknownPhoto; var p4 = unknownPhoto; var p5 = unknownPhoto; var p6 = unknownPhoto;
 
 
@@ -24,19 +24,19 @@ function ImageShow(){
         const x = localStorage.getItem("char"+(i+1));
         if(charCode[i] === x){
             if(i==0){
-                p2 = michaelPhoto; c2 = "/Story/Ettore-M5sCp";
+                p2 = michaelPhoto; c2 = "/Ettore-M5sCp";
             }
             else if(i==1){ 
-                p3 = anastasiosPhoto; c3 = "/Story/Abraham-b7HkP";
+                p3 = anastasiosPhoto; c3 = "/Abraham-b7HkP";
             }
             else if(i==2){
-                p4 = laraPhoto; c4 = "/Story/Levanja-G4tE9";
+                p4 = laraPhoto; c4 = "/Levanja-G4tE9";
             }
             else if(i==4){
-                p5 = aliosmanPhoto; c5 = "/Story/AliOsman-2nL1f";
+                p5 = aliosmanPhoto; c5 = "/AliOsman-2nL1f";
             }
             else if(i==3){
-                p6 = dhruvPhoto; c6 = "/Story/Dhruv-3t5aq";
+                p6 = dhruvPhoto; c6 = "/Dhruv-3t5aq";
             }
         }    
     }

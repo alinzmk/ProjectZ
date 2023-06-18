@@ -29,13 +29,13 @@ function App() {
         <Route path='/WhoAreWe' element={<WhoAreWe/>}/>
         <Route path='/Documentation' element={<Documentation/>}/>
         
-        <Route path='/Story/Alessandro' element={<Alessandro/>}/>
-        <Route path='/Story/Abraham-b7HkP' element={<Abraham/>}/>
-        <Route path='/Story/AliOsman-2nL1f' element={<AliOsman/>}/>
-        <Route path='/Story/Dhruv-3t5aq' element={<Dhruv/>}/>
-        <Route path='/Story/Ettore-M5sCp' element={<Ettore/>}/>
-        <Route path='/Story/Levanja-G4tE9' element={<Levanja/>}/>
-        <Route path='/Story/Unknown' element={<Unknown/>}/>
+        <Route path='/Alessandro' element={<Alessandro/>}/>
+        <Route path='/Abraham-b7HkP' element={<Abraham/>}/>
+        <Route path='/AliOsman-2nL1f' element={<AliOsman/>}/>
+        <Route path='/Dhruv-3t5aq' element={<Dhruv/>}/>
+        <Route path='/Ettore-M5sCp' element={<Ettore/>}/>
+        <Route path='/Levanja-G4tE9' element={<Levanja/>}/>
+        <Route path='/Unknown' element={<Unknown/>}/>
 
         <Route path='/n7YJ9KdPmX' element={<Hint1/>}/>
         <Route path='/G4fU5vN8cS' element={<Hint2/>}/>
