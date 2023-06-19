@@ -10,7 +10,7 @@ function Homepage(){
         <div id="home-div" class="main-div row">
             <div class="row">
                 <div class="col-12 header">
-                    <h1>PROJECT Z</h1>
+                    <h1>REVENGE OF DAGGER</h1>
                     <h2>FINAL GAME OF THIS JOURNEY</h2>
                 </div>
             </div>

@@ -20,11 +20,9 @@ function Ettore(){
                 <h2>Ettore Soprano </h2>
                 <p class="storyParag">
                 
-Ettore Soprano, a distinguished archaeologist, dedicated his life to the exploration and study of the pyramids in Egypt. As an expert in his field, he immersed himself in the mysteries and wonders of these ancient structures, unraveling their historical significance and shedding light on their construction techniques. His passion for archaeology and unwavering commitment to understanding the secrets of the pyramids made him a respected figure within the academic community.
+Ettore Soprano, a distinguished archaeologist, devoted his life to studying the Egyptian pyramids, unraveling their historical significance and construction techniques. Tragically, he met his demise at the hands of ruthless bandits who sought to exploit his valuable knowledge. Ettore's legacy lives on, inspiring others to explore the mysteries of the pyramids. However, whispers suggest that his unwavering pursuit of truth may have contributed to his downfall. His tragic fate serves as a cautionary reminder of the delicate balance between passion and obsession in the quest for knowledge.
 
-Tragically, Ettore's life was cut short by a devastating event. While pursuing his research in the vast desert surrounding the pyramids, he fell victim to a group of ruthless bandits. The bandits, notorious for their illicit activities in the area, saw an opportunity to exploit Ettore's valuable knowledge and resources. His untimely demise sent shockwaves through the archaeological community, leaving a void that would be deeply felt by his colleagues and loved ones.
-
-Ettore's legacy as an archaeologist lives on through his groundbreaking research and contributions to the understanding of the pyramids. His work not only expanded our knowledge of ancient civilizations but also inspired countless others to delve into the mysteries of Egypt's iconic landmarks. Although his life was tragically cut short, Ettore Soprano's passion and dedication continue to inspire future generations of archaeologists who strive to follow in his footsteps and uncover the secrets of the past.    
+Ettore's groundbreaking research and contributions continue to inspire future generations of archaeologists. His untimely demise stands as a reminder of the risks faced by those driven by a relentless thirst for discovery. Despite the circumstances surrounding his death, Ettore Soprano's legacy endures, fueling the curiosity of scholars who seek to uncover the secrets of the ancient world.
                     </p>
             </div>
         </div>

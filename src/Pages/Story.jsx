@@ -100,59 +100,37 @@ function Story(){
         <Modal open={openModal} onClose={()=>setModalOpen(false)}/>
         <div class="container m-auto mt-lg-5 my-5 pt-lg-5">
     <div class="row">
-        <h3>My name is Alessandro, Alessandro Soprano</h3>
+        <h3>It is Soprano, Alessandro Soprano</h3>
     </div>
     <div class="row">
         <p class="storyParag">
-            I had a beautiful family, but everything changed in an instant when my father was killed while we were on our way to a
-            picnic. It was a day that should have been filled with laughter and joy, but instead, it was the day that our lives were
-            forever changed. The loss of my father left a gaping hole in my heart and in the life of my family. We were never able
-            to fully recover from the tragedy and the memory of that day still haunts us. Despite the tragedy and the loss, I will
-            always cherish the memories of the happy times my family shared before that fateful day.
-        </p>
+            Memories of a once happy family flood my thoughts. We cherished our lives in Italy, bound together by a deep love for our father, an esteemed archaeologist and academic in the best universities in the world. However, our world shattered when he was mercilessly killed by desert bandits ”as we know”, leaving behind a void that could never be filled. I always wonder why…         </p>
     </div>
     <div class="row">
         <p className="d-none">Paragraph 2</p>
         <p ref={myElementRef1} id="parag2" class="d-none storyParag">
-            As a child, our father's death was a mystery that consumed us. We were only nine years old when he was taken from us,
-            and the pain of losing him was unbearable. As we grew older, we couldn't shake the feeling that his death was not just
-            an accident. As an adult, we decided to investigate and find out the truth about what happened to our father. We dug up
-            old police reports, interviewed witnesses, and chased down every lead. We were determined to find out who killed our
-            father and bring them to justice. It was a long and difficult journey, but in the end, we finally got the answers we
-            were looking for and were able to find closure for ourselves and our family.
-        </p>
+            In my childhood, someday I introduced to Ali Osman, a close friend of our father's. Through him, we discovered that our father had an office in New York—a place we yearned to visit, hoping to uncover more about his mysterious life and untimely demise of my father.        </p>
     </div>
     <div class="row">
         <p className="d-none">Paragraph 3</p>
         <p ref={myElementRef2} id="parag3" class="storyParag  d-none">
-            I always suspected that my father's death was not an accident, and I was filled with a need for answers. As I
-            investigated, I discovered that my father's best friend was the one who killed him. I was shocked and devastated by this
-            revelation. The betrayal was unfathomable, my father's best friend took him away from me and my family. I couldn't
-            believe that someone who was so close to my father could do something like this. It was a difficult and painful journey,
-            but I was able to find closure knowing the truth about my father's death and the person responsible for it.
-        </p>
+            Arriving in New York, we were met with chaos as we found ourselves caught in the midst of a fierce battle between the police and the M.O.B. Determined to reach our father's office, we navigated the perilous streets, driven by the burning desire for answers.        </p>
     </div>
     <div class="row">
         <p className="d-none">Paragraph 4</p>
         <p ref={myElementRef3} id="parag4" class="storyParag  d-none">
-            I was consumed with anger and a desire for revenge when I found out that my father had been murdered by his best friend.
-            I spent every waking moment thinking about the person who took him away from me and my family. I knew that I couldn't
-            rest until I had taken my revenge. I made it my life's mission to track down my father's murderer and make them pay for
-            what they had done. I gathered evidence, planned every detail, and waited for the perfect opportunity to strike. It was
-            a long and difficult journey, but finally, the moment of reckoning arrived, and I was able to take my revenge on the
-            person who had killed my father. It brought me some closure, but the pain of losing my father will stay with me forever.
-        </p>
+            Within our father's office, we unearthed a profound revelation—he had been working on excavations at the Egyptian Pyramids. More shockingly, we learned that Ali Osman, once considered a friend, was responsible for our father's murder. The thirst for vengeance consumed us, but first, we needed to obtain an ancient dagger, a key to unlocking the truth.        </p>
     </div>
     <div class="row">
         <p className="d-none">Paragraph 5</p>
         <p ref={myElementRef4} id="parag4" class="storyParag  d-none">
-        555555555   
+            Armed with the dagger and an energy map leading us to Brazil, our hearts raced with anticipation. We embarked on a journey to uncover the depths of Ali Osman's secrets. The energy within the dagger pulsated, revealing that Brazil held the answers we sought.
         </p>
     </div>
     <div class="row">
         <p className="d-none">Paragraph 5</p>
         <p ref={myElementRef5} id="parag4" class="storyParag  d-none">
-            LAST ONE
+            Our quest led us to a castle in the heart of Brazil, said to be Ali Osman's stronghold. With determination burning in our veins, we ventured into the depths of a dark cave, ready to confront the challenges that lay ahead. Zombies and soldiers stood in our path, testing our strength and resolve, but our sights remained fixed on our ultimate goal—retribution against Ali Osman.
         </p>
     </div>
 </div>
@@ -178,7 +156,8 @@ function Story(){
             </div>
         </div>
         <div class="col-12 mb-5 m-auto justify-content-center">
-            <h6 class="text-center m-3">Did you play game more and cannot see other characters and story? Enter the hint or character codes and see full content.</h6>
+            <h6 class="text-center m-3">Did you play game more and cannot see other characters and story?<br></br> 
+            Enter the hint or character codes and see full content.</h6>
             <div class="d-flex m-auto">
                 <button class="btn m-auto btn-secondary"onClick={()=>setModalOpen(true)} >ADD CODE</button>
             </div>

@@ -1,13 +1,14 @@
 import './App.jsx';
 import "./App.css";
 import { Link, NavLink} from 'react-router-dom';
+import logo from "./images/buyuklogo.png"
 
 function Navbar() {
 return (
     <div >
         <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-                <Link class="navbar-brand " to="/">PROJECT Z</Link>
+                <Link class="navbar-brand " to="/"><img src={logo} class="logo"></img>PROJECT Z</Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
