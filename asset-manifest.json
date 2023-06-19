@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/ProjectZ/static/css/main.3482c391.css",
-    "main.js": "/ProjectZ/static/js/main.e248d422.js",
+    "main.css": "/ProjectZ/static/css/main.04055635.css",
+    "main.js": "/ProjectZ/static/js/main.6eb453ca.js",
     "static/js/787.bd02f72e.chunk.js": "/ProjectZ/static/js/787.bd02f72e.chunk.js",
-    "static/media/bg-dark.png": "/ProjectZ/static/media/bg-dark.00f79378b4def00a026d.png",
     "static/media/aliosman.png": "/ProjectZ/static/media/aliosman.042c36fcdf5efa3515d8.png",
+    "static/media/bg-dark.jpg": "/ProjectZ/static/media/bg-dark.f3abbb56953e6e404500.jpg",
     "static/media/ibo2.png": "/ProjectZ/static/media/ibo2.55d09d0f29fbacc5e6fb.png",
     "static/media/dhruv.png": "/ProjectZ/static/media/dhruv.2ffbd0ea7dd259a15b4d.png",
     "static/media/levo.png": "/ProjectZ/static/media/levo.0db2a977af9a70be261b.png",
     "static/media/ettore.png": "/ProjectZ/static/media/ettore.f666ac349d60f62c74f4.png",
     "static/media/alessandro.png": "/ProjectZ/static/media/alessandro.cdeb9495c8a6d8e6f775.png",
+    "static/media/buyuklogo.png": "/ProjectZ/static/media/buyuklogo.ac95658e34ee967e0a64.png",
     "static/media/unknown.png": "/ProjectZ/static/media/unknown.74b3edef331b76d41400.png",
+    "static/media/KNEPH.png": "/ProjectZ/static/media/KNEPH.9bb98b5ac8d1b1993a7d.png",
     "static/media/brazil.png": "/ProjectZ/static/media/brazil.44440fd33fd21f0fc633.png",
+    "static/media/BA.png": "/ProjectZ/static/media/BA.87425840a32f5f4db8db.png",
+    "static/media/NEMES.png": "/ProjectZ/static/media/NEMES.cc9ff57cb3c85f8f546b.png",
+    "static/media/AJET.png": "/ProjectZ/static/media/AJET.dc5400a3f63cc2b136ec.png",
+    "static/media/IEB.png": "/ProjectZ/static/media/IEB.13f5a76b8d0243264d77.png",
     "index.html": "/ProjectZ/index.html",
-    "main.3482c391.css.map": "/ProjectZ/static/css/main.3482c391.css.map",
-    "main.e248d422.js.map": "/ProjectZ/static/js/main.e248d422.js.map",
+    "main.04055635.css.map": "/ProjectZ/static/css/main.04055635.css.map",
+    "main.6eb453ca.js.map": "/ProjectZ/static/js/main.6eb453ca.js.map",
     "787.bd02f72e.chunk.js.map": "/ProjectZ/static/js/787.bd02f72e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3482c391.css",
-    "static/js/main.e248d422.js"
+    "static/css/main.04055635.css",
+    "static/js/main.6eb453ca.js"
   ]
 }
