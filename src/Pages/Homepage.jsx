@@ -29,7 +29,7 @@ function Homepage(){
 
         <div id="second-div" class="main-div row">
             <div class="col-12 col-lg-6 my-0 text-center">
-                <h3 class="">YOU CAN DOWLOAD OUR GAME HERE</h3>
+                <h3 class="">YOU CAN DOWLOAD OUR GAME HERE from ITHACI</h3>
                 
                 <button id="downloadBtn" class="btn btn-lg btn-danger m-auto mt-4">
                     Download
