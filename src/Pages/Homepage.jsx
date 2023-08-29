@@ -29,23 +29,19 @@ function Homepage(){
 
         <div id="second-div" class="main-div row">
             <div class="col-12 col-lg-6 my-0 text-center">
-                <h3 class="">YOU CAN DOWLOAD OUR GAME HERE from ITHACI</h3>
+                <h3 class="">YOU CAN DOWLOAD OUR GAME HERE</h3>
                 
-                <button id="downloadBtn" class="btn btn-lg btn-danger m-auto mt-4">
-                    Download
-                </button>
+                <iframe frameborder="0" src="https://itch.io/embed/2205237?linkback=true&amp;bg_color=000000&amp;fg_color=fff&amp;link_color=fff&amp;border_color=000" width="552" height="167"><a href="https://supplewaif7.itch.io/revengedaggergame">REVENGE: THE DAGGER by SuppleWaif7</a></iframe>
             </div>
             <div class="col-12 col-lg-6 systemReq">
                 <p class="ms-lg-5 ">
                     MINIMUM SYSTEM REQUIREMENTS :<br></br>
-                    OS:Windows XP Service Pack 3, Windows Vista,7,8 (32bit/64bit) <br></br>
-                    Processor:Dual core CPU: AMD Athlon64 X2 2.1 Ghz (4050+), Intel Core2 Duo 1.86 Ghz (E6300)<br></br>
-                    Memory:1GB Memory (2GB on Vista)<br></br>
-
-                    Graphics:DirectX 9 graphics card with 512Mb Video RAM: AMD Radeon HD 2600 XT, nVidia 8600<br></br>
-                    DirectX®:9.0c<br></br>
-                    Hard Drive:12 GB HD space<br></br>
-                    Other Requirements:Broadband Internet connection<br></br>
+                    OS:Windows 7 <br></br>
+                    Processor:Dual core CPU: Intel i3 <br></br>
+                    Memory:8GB RAM<br></br>
+                    Graphics:DirectX 11 graphics card with 2GB Video RAM: nVidia 940m<br></br>
+                    Hard Drive:15 GB HD space<br></br>
+                    Other Requirements: Broadband Internet connection<br></br>
                 </p>
             </div>
         </div>
