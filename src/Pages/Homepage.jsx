@@ -40,7 +40,7 @@ function Homepage(){
                     Processor:Dual core CPU: Intel i3 <br></br>
                     Memory:8GB RAM<br></br>
                     Graphics:DirectX 11 graphics card with 2GB Video RAM: nVidia 940m<br></br>
-                    Hard Drive:15 GB HD space<br></br>
+                    Hard Drive:4 GB HD space<br></br>
                     Other Requirements: Broadband Internet connection<br></br>
                 </p>
             </div>
