@@ -13,16 +13,11 @@ a, a:hover, a::after{
   text-decoration: none;
   color: white;
 }
-.navbar-brand{
-  font-size: 2rem;
-}
-.storyParag {
-  text-indent: 30px;
+
+iframe{
+  max-width: 90%;
 }
 
-.row {
-  width: 100%;
-}
 
 @media only screen and (min-width: 700px) {
   #home-div {
@@ -207,4 +202,15 @@ input{
 
 .logo{
   width: 3rem;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+.storyParag {
+  text-indent: 30px;
+}
+
+.row {
+  width: 100%;
 }
